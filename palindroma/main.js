@@ -6,12 +6,12 @@ let palindroma= ""
 for(let i = userWord.length -1; i >= 0; i--){
     console.log(userWord[i]);
     palindroma += userWord[i]
-    if(palindroma === userWord) {
-        alert("Questa parola è palindroma")
-    }
+   
 }
 if(palindroma !== userWord) {
     alert("Questa parola non è palindroma")
+}else{
+    alert("Questa parola è palindroma")
 }
 
 
